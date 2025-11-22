@@ -39,28 +39,6 @@ The Streamlit interface provides fast, accurate song recommendations using a pre
 > These files are used directly by Streamlit for fast recommendations.
 
 ---
-## 📁 Project Structure
-
-```bash
-spotify-recommender/
-│
-├── data/
-│ └── spotify_tracks.csv
-├── app.py
-├── pretrained/
-│ ├── df.pkl
-│ ├── similarity_matrix.pkl
-│ └── autoencoder_encoder.keras
-├── song/ <-- virtual environment (ignored)
-│ ├── Scripts/
-│ ├── Lib/
-│ └── pyvenv.cfg
-├── spotify-recommendation-engine.ipynb
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
----
 
 ## 🏃 Running the App
 
@@ -96,3 +74,4 @@ Cosine similarity
 ## 👤 Author
 
 Developed by Omar.
+
